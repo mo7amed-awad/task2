@@ -137,4 +137,8 @@ Database Configuration: Mention the specific database you're using (MySQL, SQLit
 Running the Application: The step-by-step instructions to set up and run the app should be clear, especially for people who are not familiar with Laravel.
 CRUD Operations: Emphasize how users interact with tasks (creating, updating, deleting), and that only authenticated users can manage their own tasks.
 Authentication: Mention that the app uses Laravel's built-in authentication system.
+<<<<<<< HEAD
 This README will help anyone who wants to run your application, understand the database structure, and know how to interact with the ap
+=======
+This README will help anyone who wants to run your application, understand the database structure, and know how to interact with the ap
+>>>>>>> 41ae555c9f43be7bf87b9e28b7a551129ce981ac
