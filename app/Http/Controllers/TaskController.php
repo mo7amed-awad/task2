@@ -13,8 +13,11 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $tasks=Task::all();
-        return view('tasks.index',compact('tasks'));
+        // Retrieve only the tasks that belong to the authenticated user
+        $tasks = Task::where('user_id', auth()->id())->get();
+        
+        // Return the view with the tasks
+        return view('tasks.index', compact('tasks'));
     }
 
     /**
