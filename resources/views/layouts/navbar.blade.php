@@ -2,9 +2,9 @@
     <header class="d-flex flex-wrap align-items-center justify-content-between py-3 mb-4 border-bottom">
         <!-- Left-side Navigation Links -->
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link @yield('home-active')">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link @yield('tasks-active')">Tasks</a></li>
-            <li class="nav-item"><a href="#" class="nav-link @yield('createTask-active')">Create Task</a></li>
+            <li class="nav-item"><a href="{{route('/')}}" class="nav-link @yield('home-active')">Home</a></li>
+            <li class="nav-item"><a href="{{route('tasks.index')}}" class="nav-link @yield('tasks-active')">Tasks</a></li>
+            <li class="nav-item"><a href="{{route('tasks.create')}}" class="nav-link @yield('createTask-active')">Create Task</a></li>
         </ul>
 
         <!-- Right-side Login/Sign-up Links -->
